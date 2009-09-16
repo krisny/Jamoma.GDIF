@@ -7,6 +7,5 @@
   <preset number='1' name='default'>
     <item name='play' type='msg_toggle' priority='0'>0</item>
     <item name='speed' type='msg_float' priority='0'>1.000000</item>
-    <item name='ui/freeze' type='msg_toggle' priority='0'>0</item>
   </preset>
 </jamoma>
