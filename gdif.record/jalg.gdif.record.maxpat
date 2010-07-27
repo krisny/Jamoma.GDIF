@@ -737,12 +737,12 @@
 					"patching_rect" : [ 298.0, 121.0, 119.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p write_control_commands",
@@ -788,8 +788,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.0, 66.0, 19.0, 19.0 ],
-									"presentation_rect" : [ 217.0, 25.0, 0.0, 0.0 ]
+									"patching_rect" : [ 155.0, 66.0, 19.0, 19.0 ]
 								}
 
 							}
@@ -803,7 +802,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 357.0, 343.0, 156.0, 62.0 ],
-									"presentation_rect" : [ 357.0, 207.0, 0.0, 0.0 ],
 									"text" : "inside the script-messages subpatch, messages to the dynamic subpatch are generated."
 								}
 
@@ -818,7 +816,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 359.0, 140.0, 156.0, 48.0 ],
-									"presentation_rect" : [ 359.0, 69.0, 0.0, 0.0 ],
 									"text" : "When (order 1), the contents of the coll is sent out"
 								}
 
@@ -958,9 +955,9 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
-										"rect" : [ -9.0, 42.0, 959.0, 689.0 ],
+										"rect" : [ 0.0, 44.0, 959.0, 689.0 ],
 										"bglocked" : 0,
-										"defrect" : [ -9.0, 42.0, 959.0, 689.0 ],
+										"defrect" : [ 0.0, 44.0, 959.0, 689.0 ],
 										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -978,6 +975,34 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "/0" ],
+													"patching_rect" : [ 51.0, 331.0, 23.0, 17.0 ],
+													"text" : "t /0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 34.0, 279.0, 39.5, 17.0 ],
+													"text" : "sel 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
 													"linecount" : 2,
@@ -985,7 +1010,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 704.0, 371.0, 207.0, 34.0 ],
-													"presentation_rect" : [ 704.0, 371.0, 0.0, 0.0 ],
 													"text" : "Then, all the proper connections are made"
 												}
 
@@ -1000,7 +1024,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 710.0, 191.0, 202.0, 62.0 ],
-													"presentation_rect" : [ 705.0, 101.0, 0.0, 0.0 ],
 													"text" : "When a new streamcount is received, the old jcom.oscroute inside the dynamic subpatch is deleted, and a new one is created"
 												}
 
@@ -1014,7 +1037,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 710.0, 329.0, 34.0, 20.0 ],
-													"presentation_rect" : [ 701.0, 301.0, 0.0, 0.0 ],
 													"text" : "e.g."
 												}
 
@@ -1042,7 +1064,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 706.0, 266.0, 202.0, 62.0 ],
-													"presentation_rect" : [ 701.0, 229.0, 0.0, 0.0 ],
 													"text" : "When a list of stream IDs is received (e.g. XPOS 0 XVEL 1), the old sdif_write object is deleted, and a new object is created:"
 												}
 
@@ -1056,7 +1077,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 222.0, 31.0, 108.0, 20.0 ],
-													"presentation_rect" : [ 97.0, 31.0, 0.0, 0.0 ],
 													"text" : "in1: streamcount"
 												}
 
@@ -1070,7 +1090,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 470.0, 31.0, 202.0, 20.0 ],
-													"presentation_rect" : [ 483.0, 27.0, 0.0, 0.0 ],
 													"text" : "in2: list of stream IDs with index"
 												}
 
@@ -1098,7 +1117,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 34.0, 343.0, 35.0, 17.0 ],
+													"patching_rect" : [ 34.0, 358.0, 35.0, 17.0 ],
 													"text" : "del 50"
 												}
 
@@ -1141,7 +1160,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 46.0, 229.0, 41.0, 17.0 ],
+													"patching_rect" : [ 34.0, 229.0, 41.0, 17.0 ],
 													"text" : "pipe 10"
 												}
 
@@ -1155,7 +1174,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "bang" ],
-													"patching_rect" : [ 46.0, 202.0, 186.0, 17.0 ],
+													"patching_rect" : [ 34.0, 202.0, 198.0, 17.0 ],
 													"text" : "t i b"
 												}
 
@@ -1169,7 +1188,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "int", "zlclear" ],
-													"patching_rect" : [ 46.0, 256.0, 118.0, 17.0 ],
+													"patching_rect" : [ 34.0, 256.0, 130.0, 17.0 ],
 													"text" : "t i i zlclear"
 												}
 
@@ -1254,7 +1273,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "int" ],
-													"patching_rect" : [ 46.0, 300.0, 64.0, 17.0 ],
+													"patching_rect" : [ 55.0, 300.0, 55.0, 17.0 ],
 													"text" : "uzi"
 												}
 
@@ -1283,7 +1302,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 317.0, 453.0, 131.0, 36.0 ],
+													"patching_rect" : [ 317.0, 453.0, 165.0, 31.0 ],
 													"text" : "script connect route3 0 sdif_write 0, script connect route1 2 sdif_write 0, clean"
 												}
 
@@ -1558,6 +1577,42 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-2", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-24", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-30", 0 ],
 													"hidden" : 0,
 													"midpoints" : [ 348.5, 313.5, 467.5, 313.5 ],
@@ -1648,6 +1703,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-36", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-38", 1 ],
 													"hidden" : 0,
 													"midpoints" : [ 154.5, 364.5, 154.5, 364.5 ],
@@ -1659,17 +1723,8 @@
 												"patchline" : 												{
 													"destination" : [ "obj-38", 1 ],
 													"hidden" : 0,
-													"midpoints" : [ 105.0, 284.0, 154.5, 284.0 ],
+													"midpoints" : [ 99.0, 284.0, 154.5, 284.0 ],
 													"source" : [ "obj-36", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-43", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-36", 0 ]
 												}
 
 											}
@@ -1749,7 +1804,7 @@
 												"patchline" : 												{
 													"destination" : [ "obj-6", 0 ],
 													"hidden" : 0,
-													"midpoints" : [  ],
+													"midpoints" : [ 82.5, 323.0, 43.5, 323.0 ],
 													"source" : [ "obj-43", 1 ]
 												}
 
@@ -1787,12 +1842,12 @@
 									"patching_rect" : [ 87.0, 390.0, 135.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
 										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p script-messages"
@@ -1837,7 +1892,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 112.0, 331.0, 150.0, 34.0 ],
-													"presentation_rect" : [ 85.0, 364.0, 0.0, 0.0 ],
 													"text" : "e.g. XPOS XVEL becomes XPOS 0 XVEL 1"
 												}
 
@@ -2108,12 +2162,12 @@
 									"patching_rect" : [ 203.0, 353.0, 89.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
 										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p make-indexed-list",
@@ -2326,12 +2380,12 @@
 					"patching_rect" : [ 46.0, 121.0, 103.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p anynumberofstreams"
@@ -2348,9 +2402,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 120.0, 421.0, 664.0, 389.0 ],
+						"rect" : [ 42.0, 345.0, 664.0, 389.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 120.0, 421.0, 664.0, 389.0 ],
+						"defrect" : [ 42.0, 345.0, 664.0, 389.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2752,12 +2806,12 @@
 					"patching_rect" : [ 164.0, 308.0, 276.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p dynamic-patcher"
@@ -3422,12 +3476,12 @@
 					"patching_rect" : [ 214.0, 121.0, 59.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p definitions"
