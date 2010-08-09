@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 504.0, 399.0, 654.0, 365.0 ],
+		"rect" : [ 590.0, 51.0, 654.0, 365.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 504.0, 399.0, 654.0, 365.0 ],
+		"defrect" : [ 590.0, 51.0, 654.0, 365.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,12 +49,11 @@
 					"fontname" : "Verdana",
 					"fontsize" : 11.0,
 					"id" : "obj-5",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.0, 47.0, 288.0, 33.0 ],
-					"text" : "FTM: ftm.ircam.fr\n(version 2.5.0 beta 13-15 does not work on mac)"
+					"patching_rect" : [ 352.0, 47.0, 288.0, 20.0 ],
+					"text" : "FTM: ftm.ircam.fr (latest version)"
 				}
 
 			}
@@ -261,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.0, 129.0, 300.0, 70.0 ],
+					"patching_rect" : [ 21.0, 128.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
 				}
 
