@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 157.0, 130.0, 731.0, 481.0 ],
+		"rect" : [ 45.0, 164.0, 731.0, 481.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 157.0, 130.0, 731.0, 481.0 ],
+		"defrect" : [ 45.0, 164.0, 731.0, 481.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -231,13 +231,13 @@
 ,
 					"patching_rect" : [ 517.0, 206.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p enable-streams"
@@ -253,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 528.0, 67.0, 143.0, 20.0 ],
+					"patching_rect" : [ 517.0, 67.0, 154.0, 20.0 ],
 					"text" : "jcom.oscroute /streamlist"
 				}
 
@@ -1155,13 +1155,13 @@
 ,
 					"patching_rect" : [ 24.0, 215.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p script-messages"
@@ -1303,13 +1303,13 @@
 ,
 					"patching_rect" : [ 382.0, 349.0, 289.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p dynamic-subpatch"
@@ -1364,7 +1364,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "clear", "" ],
+					"outlettype" : [ "int", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"rect" : [ 328.0, 50.0, 900.0, 651.0 ],
@@ -1743,8 +1743,8 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 418.0, 118.0, 230.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 2,
-										"ftm_objref_conv" : 0
+										"ftm_objref_conv" : 0,
+										"ftm_scope" : 2
 									}
 ,
 									"text" : "ftm.sdif.info"
@@ -1974,13 +1974,13 @@
 ,
 					"patching_rect" : [ 24.0, 159.0, 288.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p get_stream_names"
@@ -2020,7 +2020,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 29.0, 25.0, 25.0 ],
+					"patching_rect" : [ 517.0, 29.0, 25.0, 25.0 ],
 					"varname" : "inlet"
 				}
 

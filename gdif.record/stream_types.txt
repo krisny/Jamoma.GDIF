@@ -27,5 +27,6 @@
 "GDIF: Pressure 1D" XPR1 "Pressure" "1D_pressure"
 "GDIF: Tilt 2D" XTI2 "X\\\, Y" "2D_tilt"
 "GDIF: Toggle 1D" XTO1 "Boolean" "1D_toggle"
+"GDIF: Quantity of motion 1D" XQOM "QOM" "1D_Quantity_of_motion"
 "-- Biosignal descriptors --"
 "GDIF: EMG" XEMG "emg_value" "EMG_data"
