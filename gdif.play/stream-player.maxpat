@@ -38,8 +38,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 310.0, 55.0, 20.0 ],
-					"text" : "gate"
+					"patching_rect" : [ 471.0, 310.0, 44.0, 20.0 ],
+					"text" : "gate 1"
 				}
 
 			}
@@ -52,8 +52,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 427.0, 310.0, 34.0, 20.0 ],
-					"text" : "gate"
+					"patching_rect" : [ 427.0, 310.0, 44.0, 20.0 ],
+					"text" : "gate 1"
 				}
 
 			}
@@ -795,13 +795,13 @@
 ,
 					"patching_rect" : [ 280.0, 386.0, 203.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p FTM-to-OSC"
@@ -1270,13 +1270,13 @@
 ,
 					"patching_rect" : [ 442.0, 114.0, 135.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p player_controls"
@@ -1484,13 +1484,13 @@
 ,
 					"patching_rect" : [ 70.0, 127.0, 176.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p get_chosen_stream_name"
